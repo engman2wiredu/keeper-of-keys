@@ -1,1 +1,5 @@
+
 project_id = "wxahemerhoapxqfussfs"
+
+[functions.port-scanner]
+verify_jwt = true
