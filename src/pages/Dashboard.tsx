@@ -1,4 +1,5 @@
 
+import React from "react";
 import { ScanTargetForm } from "@/components/scan/ScanTargetForm";
 import { ScanTargetList } from "@/components/scan/ScanTargetList";
 import { isAuthenticated } from "@/lib/auth";

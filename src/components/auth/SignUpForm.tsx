@@ -1,5 +1,5 @@
 
-import React from "react";
+import * as React from "react";
 import { useNavigate } from "react-router-dom";
 import { AuthForm } from "./AuthForm";
 import { signUp } from "@/lib/auth";
