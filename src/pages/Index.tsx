@@ -23,10 +23,10 @@ const Index = () => {
         <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
           {authenticated ? (
             <Button
-              onClick={() => navigate("/profile")}
+              onClick={() => navigate("/store")}
               className="w-full sm:w-auto px-8 py-3 bg-blue-600 hover:bg-blue-500 text-white rounded-md shadow-sm"
             >
-              View Profile
+              Go to Store
             </Button>
           ) : (
             <>
